@@ -13,6 +13,10 @@ path = "src/character_type.rs"
 name = "privimite_types"
 path = "src/primitive_types.rs"
 
+[[bin]]
+name = "characterType2"
+path = "src/character_types_2.rs"
+
 
 
 [dependencies]

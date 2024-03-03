@@ -1,3 +1,6 @@
+mod primitive_types;
+mod character_type;
+
 fn main() {
     /* 범위 주석 */
     let _x/*: i16*/ = 10;

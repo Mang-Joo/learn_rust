@@ -33,4 +33,8 @@ path = "src/semicolon_and_unit_type.rs"
 name = "func"
 path = "src/func_and_code_blocks.rs"
 
+[[bin]]
+name = "mutability"
+path = "src/mutability_and_shadowing.rs"
+
 [dependencies]

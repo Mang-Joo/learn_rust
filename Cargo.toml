@@ -21,9 +21,12 @@ path = "src/character_types_2.rs"
 name = "floatType"
 path = "src/floats_type.rs"
 
-
 [[bin]]
 name = "print"
 path = "src/print_function.rs"
+
+[[bin]]
+name = "semicolon"
+path = "src/semicolon_and_unit_type.rs"
 
 [dependencies]

@@ -15,4 +15,8 @@ fn main() {
 
     // u8 + i32 는 불가능
     let thirdNumber = unsignedInteger;
+
+
+    let my_number = 9_u8;
+    let other_number = 1_000_000_000_u64;
 }

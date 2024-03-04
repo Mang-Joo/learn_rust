@@ -17,6 +17,9 @@ path = "src/primitive_types.rs"
 name = "characterType2"
 path = "src/character_types_2.rs"
 
+[[bin]]
+name = "floatType"
+path = "src/floats_type.rs"
 
 
 [dependencies]

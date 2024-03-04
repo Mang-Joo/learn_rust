@@ -29,4 +29,8 @@ path = "src/print_function.rs"
 name = "semicolon"
 path = "src/semicolon_and_unit_type.rs"
 
+[[bin]]
+name = "func"
+path = "src/func_and_code_blocks.rs"
+
 [dependencies]

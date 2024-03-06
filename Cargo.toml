@@ -49,4 +49,8 @@ path = "src/fancy_printing.rs"
 name = "string"
 path = "src/string_and_str.rs"
 
+[[bin]]
+name = "rectangle"
+path = "src/rectangles.rs"
+
 [dependencies]

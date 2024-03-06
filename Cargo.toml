@@ -37,4 +37,16 @@ path = "src/func_and_code_blocks.rs"
 name = "mutability"
 path = "src/mutability_and_shadowing.rs"
 
+[[bin]]
+name = "memory"
+path = "src/memory_and_ref.rs"
+
+[[bin]]
+name = "fancy"
+path = "src/fancy_printing.rs"
+
+[[bin]]
+name = "string"
+path = "src/string_and_str.rs"
+
 [dependencies]

@@ -53,4 +53,8 @@ path = "src/string_and_str.rs"
 name = "rectangle"
 path = "src/rectangles.rs"
 
+[[bin]]
+name = "method"
+path = "src/method.rs"
+
 [dependencies]

@@ -7,58 +7,58 @@ edition = "2021"
 
 [[bin]]
 name = "characterType"
-path = "src/character_type.rs"
+path = "src/type/character_type.rs"
 
 [[bin]]
 name = "privimite_types"
-path = "src/primitive_types.rs"
+path = "src/type/primitive_types.rs"
 
 [[bin]]
 name = "characterType2"
-path = "src/character_types_2.rs"
+path = "src/type/character_types_2.rs"
 
 [[bin]]
 name = "floatType"
-path = "src/floats_type.rs"
+path = "src/type/floats_type.rs"
 
 [[bin]]
 name = "print"
-path = "src/print_function.rs"
+path = "src/func/print_function.rs"
 
 [[bin]]
 name = "semicolon"
-path = "src/semicolon_and_unit_type.rs"
+path = "src/type/semicolon_and_unit_type.rs"
 
 [[bin]]
 name = "func"
-path = "src/func_and_code_blocks.rs"
+path = "src/func/func_and_code_blocks.rs"
 
 [[bin]]
 name = "mutability"
-path = "src/mutability_and_shadowing.rs"
+path = "src/func/mutability_and_shadowing.rs"
 
 [[bin]]
 name = "memory"
-path = "src/memory_and_ref.rs"
+path = "src/func/memory_and_ref.rs"
 
 [[bin]]
 name = "fancy"
-path = "src/fancy_printing.rs"
+path = "src/print/fancy_printing.rs"
 
 [[bin]]
 name = "string"
-path = "src/string_and_str.rs"
+path = "src/type/string_and_str.rs"
 
 [[bin]]
 name = "rectangle"
-path = "src/rectangles.rs"
+path = "src/struct/rectangles.rs"
 
 [[bin]]
 name = "method"
-path = "src/method.rs"
+path = "src/func/method.rs"
 
 [[bin]]
 name = "enums"
-path = "src/enums.rs"
+path = "src/enum/enums.rs"
 
 [dependencies]

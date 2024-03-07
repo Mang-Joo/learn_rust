@@ -1,5 +1,3 @@
-mod primitive_types;
-mod character_type;
 
 fn main() {
     /* 범위 주석 */

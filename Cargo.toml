@@ -61,4 +61,13 @@ path = "src/func/method.rs"
 name = "enums"
 path = "src/enum/enums.rs"
 
+[[bin]]
+name = "vector"
+path = "src/collection/vector.rs"
+
+[[bin]]
+name = "collection_string"
+path = "src/collection/string.rs"
+
 [dependencies]
+rand = "0.8.5"

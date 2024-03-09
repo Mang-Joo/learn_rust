@@ -69,5 +69,13 @@ path = "src/collection/vector.rs"
 name = "collection_string"
 path = "src/collection/string.rs"
 
+[[bin]]
+name = "collection_hashmap"
+path = "src/collection/hashmap.rs"
+
+[[bin]]
+name = "collection_problems"
+path = "src/collection/problems.rs"
+
 [dependencies]
 rand = "0.8.5"

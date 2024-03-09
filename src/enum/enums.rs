@@ -39,10 +39,13 @@ fn main() {
     println!("home v2 is {home_v2:?}");
     println!("loopback is {loopback_v2:?}");
 
-    let some_number = Some(5);
-    let some_char = Some('c');
+    let v = IpAddressKind::V6(String::from("value"));
 
-    let absent_number: Option<i32> = None;
+    match v {
+        IpAddressKind::V6(value) if value == "hello" => println!("Hello {}", value),
+        IpAddressKind::V4(value) => println!("V4 {}", value),
+        _ => println!("None"),
+    }
 }
 
 fn route(ip_kind: IpAddressKind) {

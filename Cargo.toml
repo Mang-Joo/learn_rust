@@ -77,5 +77,9 @@ path = "src/collection/hashmap.rs"
 name = "collection_problems"
 path = "src/collection/problems.rs"
 
+[[bin]]
+name = "error_can_recovery"
+path = "src/error/panic.rs"
+
 [dependencies]
 rand = "0.8.5"

@@ -81,5 +81,9 @@ path = "src/collection/problems.rs"
 name = "error_can_recovery"
 path = "src/error/panic.rs"
 
+[[bin]]
+name = "panic_or_no_panic"
+path = "src/error/panic_or_no_panic.rs"
+
 [dependencies]
 rand = "0.8.5"

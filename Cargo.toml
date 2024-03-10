@@ -101,5 +101,11 @@ path = "src/generic/trait.rs"
 name = "lifetime"
 path = "src/generic/life_time.rs"
 
+[[bin]]
+name = "write_of_test"
+path = "src/test/write_of_test.rs"
+
+
+
 [dependencies]
 rand = "0.8.5"

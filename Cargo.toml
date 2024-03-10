@@ -97,5 +97,9 @@ path = "src/generic/generic_type_2.rs"
 name = "trait"
 path = "src/generic/trait.rs"
 
+[[bin]]
+name = "lifetime"
+path = "src/generic/life_time.rs"
+
 [dependencies]
 rand = "0.8.5"

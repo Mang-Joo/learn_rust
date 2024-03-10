@@ -51,9 +51,5 @@ fn some_function<T, U>(t: &T, u: &U) -> i32
         T: Display + Clone + PartialOrd,
         U: Clone + Debug + Display + PartialOrd
 {
-    if t >= u {
-        t as i32
-    } else {
-        u as i32
-    }
+    0
 }

@@ -85,5 +85,13 @@ path = "src/error/panic.rs"
 name = "panic_or_no_panic"
 path = "src/error/panic_or_no_panic.rs"
 
+[[bin]]
+name = "generic_type"
+path = "src/generic/generic_type.rs"
+
+[[bin]]
+name = "generic_type2"
+path = "src/generic/generic_type_2.rs"
+
 [dependencies]
 rand = "0.8.5"

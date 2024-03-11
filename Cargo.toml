@@ -105,7 +105,9 @@ path = "src/generic/life_time.rs"
 name = "write_of_test"
 path = "src/test/write_of_test.rs"
 
-
+[[bin]]
+name = "minigrep"
+path = "src/minigrep/minigrep.rs"
 
 [dependencies]
 rand = "0.8.5"

@@ -109,5 +109,10 @@ path = "src/test/write_of_test.rs"
 name = "minigrep"
 path = "src/minigrep/minigrep.rs"
 
+[[bin]]
+name = "closer"
+path = "src/closer/closer.rs"
+
+
 [dependencies]
 rand = "0.8.5"

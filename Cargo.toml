@@ -117,5 +117,9 @@ path = "src/closer/closer.rs"
 name = "iterate"
 path = "src/closer/iterate.rs"
 
+[[bin]]
+name = "io"
+path = "src/closer/io.rs"
+
 [dependencies]
 rand = "0.8.5"

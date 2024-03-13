@@ -113,6 +113,9 @@ path = "src/minigrep/minigrep.rs"
 name = "closer"
 path = "src/closer/closer.rs"
 
+[[bin]]
+name = "iterate"
+path = "src/closer/iterate.rs"
 
 [dependencies]
 rand = "0.8.5"

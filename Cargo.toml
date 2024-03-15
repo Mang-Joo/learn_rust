@@ -121,5 +121,9 @@ path = "src/closer/iterate.rs"
 name = "io"
 path = "src/closer/io.rs"
 
+[[bin]]
+name = "box"
+path = "src/smart_pointer/box.rs"
+
 [dependencies]
 rand = "0.8.5"

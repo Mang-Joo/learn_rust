@@ -125,5 +125,11 @@ path = "src/closer/io.rs"
 name = "box"
 path = "src/smart_pointer/box.rs"
 
+[[bin]]
+name = "deref"
+path = "src/smart_pointer/deref.rs"
+
+
+
 [dependencies]
 rand = "0.8.5"

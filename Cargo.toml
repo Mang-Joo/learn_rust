@@ -129,6 +129,10 @@ path = "src/smart_pointer/box.rs"
 name = "deref"
 path = "src/smart_pointer/deref.rs"
 
+[[bin]]
+name = "drop"
+path = "src/smart_pointer/drop.rs"
+
 
 
 [dependencies]

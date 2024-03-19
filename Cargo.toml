@@ -137,6 +137,10 @@ path = "src/smart_pointer/drop.rs"
 name = "rc"
 path = "src/smart_pointer/rc.rs"
 
+[[bin]]
+name = "refcell"
+path = "src/smart_pointer/refcell.rs"
+
 
 
 [dependencies]

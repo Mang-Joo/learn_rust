@@ -145,6 +145,10 @@ path = "src/smart_pointer/refcell.rs"
 name = "async"
 path = "src/thread/async.rs"
 
+[[bin]]
+name = "message_passing"
+path = "src/thread/message_passing.rs"
+
 
 
 [dependencies]

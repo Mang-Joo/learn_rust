@@ -149,6 +149,10 @@ path = "src/thread/async.rs"
 name = "message_passing"
 path = "src/thread/message_passing.rs"
 
+[[bin]]
+name = "concurrent"
+path = "src/thread/concurrent.rs"
+
 
 
 [dependencies]

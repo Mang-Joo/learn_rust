@@ -154,6 +154,11 @@ name = "concurrent"
 path = "src/thread/concurrent.rs"
 
 
+[[bin]]
+name = "blog"
+path = "src/object/blog.rs"
+
+
 
 [dependencies]
 rand = "0.8.5"

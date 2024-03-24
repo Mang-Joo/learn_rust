@@ -12,7 +12,7 @@
 
 fn main() {
     let my_number = 15; // this is an i32
-    let single_reference = &my_number;  s// reference to my_number
+    let single_reference = &my_number;  // reference to my_number
     let double_reference = &single_reference; // this is a &&i32 -> 거의 사용하지 않음
     let five_reference = &&&&&my_number; // this is a &&&&&i32 -> 사용 안함.
 }

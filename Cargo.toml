@@ -162,6 +162,13 @@ name = "pattern"
 path = "src/pattern/pattern_matcing.rs"
 
 
+[[bin]]
+name = "single"
+path = "src/web/single.rs"
+
+
+
+
 
 [dependencies]
 rand = "0.8.5"
